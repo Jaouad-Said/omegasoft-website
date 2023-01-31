@@ -1,17 +1,32 @@
 @import './base.css';
 
-#app {
+/* #app {
   max-width: 1280px;
   margin: 0;
 
   font-weight: normal;
-}
+} */
 
 a,
 .green {
   text-decoration: none;
   color: rgb(35, 156, 162);
   transition: 0.4s;
+}
+
+.hero__background{
+  background: #1E2530;
+}
+
+.text__gradient{
+  background: linear-gradient(91.81deg, #436BB2 5.55%, #38BFE5 32.34%, #A490C3 64.42%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text__span-color{
+  color: #A490C3;
 }
 
 /* @media (hover: hover) {
