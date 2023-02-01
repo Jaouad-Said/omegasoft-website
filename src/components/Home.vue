@@ -269,7 +269,7 @@ defineProps({
         <img class="flex center ml-auto mr-auto cursor-pointer animate-bounce" src="../assets/Images/mouse_line.svg" alt="mockup">
       </a>
   </section>
-  <section class="px-2 sm:px-4 dark:bg-gray-900 h-full w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+  <section class="service__Background px-2 sm:px-4 dark:bg-gray-900 h-full w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
     <div class="flex max-w-screen-xl px-4 py-8 ml-auto mr-auto mt-auto lg:gap-8 xl:gap-0 lg:py-4 lg:grid-cols-12 pr-10 pl-10 ">
       <div class="mr-auto ml-auto  place-self-center">
         <h1 class="section__Title justify-center max-w-2xl mt-4 text-xl font-bold md:text-5xl xl:text-2xl text-blue-50">Nos Services</h1>
@@ -279,7 +279,7 @@ defineProps({
     <div class="flex max-w-screen-xl px-4 py-8 ml-auto mr-auto mt-auto lg:gap-8 xl:gap-0 lg:py-4 lg:grid-cols-12 pr-10 pl-10 ">
       <div class="flex flex-wrap justify-center mr-auto ml-auto place-self-center lg:col-span-7">
         
-      <div class="service__Card max-w-xs p-6 bg-white border m-4 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+      <div class="service__Card max-w-xs p-6 bg-white border m-4 border-gray-100 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-lg ">
         <img class="flex mr-auto w-10 h-10 mb-2 text-gray-500 dark:text-gray-400" src="../assets/Images/Service Icon.svg" alt="mockup">
         <a href="#">
             <h5 class="service__Title mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Développement spécifique
@@ -294,7 +294,7 @@ defineProps({
         </a>
       </div>
 
-      <div class="service__Card max-w-xs p-6 bg-white border m-4 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+      <div class="service__Card max-w-xs p-6 bg-white border m-4 border-gray-100 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-lg">
         <img class="flex mr-auto w-10 h-10 mb-2 text-gray-500 dark:text-gray-400" src="../assets/Images/Service Icon.svg" alt="mockup">
         <a href="#">
             <h5 class="service__Title mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Développement spécifique
@@ -309,7 +309,7 @@ defineProps({
         </a>
       </div>
 
-      <div class="service__Card max-w-xs p-6 bg-white border m-4 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+      <div class="service__Card max-w-xs p-6 bg-white border m-4 border-gray-100 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-lg">
         <img class="flex mr-auto w-10 h-10 mb-2 text-gray-500 dark:text-gray-400" src="../assets/Images/Service Icon.svg" alt="mockup">
         <a href="#">
             <h5 class="service__Title mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Développement spécifique
@@ -324,7 +324,7 @@ defineProps({
         </a>
       </div>
 
-      <div class="service__Card max-w-xs p-6 bg-white border m-4 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+      <div class="service__Card max-w-xs p-6 bg-white border m-4 border-gray-100 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-lg">
         <img class="flex mr-auto w-10 h-10 mb-2 text-gray-500 dark:text-gray-400" src="../assets/Images/Service Icon.svg" alt="mockup">
         <a href="#">
             <h5 class="service__Title mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Développement spécifique
@@ -339,7 +339,7 @@ defineProps({
         </a>
       </div>
 
-      <div class="service__Card max-w-xs p-6 bg-white border m-4 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+      <div class="service__Card max-w-xs p-6 bg-white border m-4 border-gray-100 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-lg">
         <img class="flex mr-auto w-10 h-10 mb-2 text-gray-500 dark:text-gray-400" src="../assets/Images/Service Icon.svg" alt="mockup">
         <a href="#">
             <h5 class="service__Title mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Développement spécifique
@@ -354,7 +354,7 @@ defineProps({
         </a>
       </div>
 
-      <div class="service__Card max-w-xs p-6 bg-white border m-4 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+      <div class="service__Card max-w-xs p-6 bg-white border m-4 border-gray-100 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-lg">
         <img class="flex mr-auto w-10 h-10 mb-2 text-gray-500 dark:text-gray-400" src="../assets/Images/Service Icon.svg" alt="mockup">
         <a href="#">
             <h5 class="service__Title mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Développement spécifique
