@@ -266,9 +266,112 @@ defineProps({
         </div>
       </div>
       <a href="#" class="py-1 px-1 block max-w-screen-xl ml-auto mr-auto">
-          <img class="flex center ml-auto mr-auto" src="../assets/Images/mouse_line.svg" alt="mockup">
+        <img class="flex center ml-auto mr-auto cursor-pointer animate-bounce" src="../assets/Images/mouse_line.svg" alt="mockup">
       </a>
-</section>
+  </section>
+  <section class="px-2 sm:px-4 dark:bg-gray-900 h-full w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+    <div class="flex max-w-screen-xl px-4 py-8 ml-auto mr-auto mt-auto lg:gap-8 xl:gap-0 lg:py-4 lg:grid-cols-12 pr-10 pl-10 ">
+      <div class="mr-auto ml-auto  place-self-center">
+        <h1 class="section__Title justify-center max-w-2xl mt-4 text-xl font-bold md:text-5xl xl:text-2xl text-blue-50">Nos Services</h1>
+        <h2 class="section__SubTitle max-w-2xl mt-4 text-xl font-bold md:text-5xl xl:text-2xl text-blue-50">Les services que nous fournissons sont les plus efficaces du marché</h2>
+      </div>
+    </div>
+    <div class="flex max-w-screen-xl px-4 py-8 ml-auto mr-auto mt-auto lg:gap-8 xl:gap-0 lg:py-4 lg:grid-cols-12 pr-10 pl-10 ">
+      <div class="flex flex-wrap justify-center mr-auto ml-auto place-self-center lg:col-span-7">
+        
+      <div class="service__Card max-w-xs p-6 bg-white border m-4 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <img class="flex mr-auto w-10 h-10 mb-2 text-gray-500 dark:text-gray-400" src="../assets/Images/Service Icon.svg" alt="mockup">
+        <a href="#">
+            <h5 class="service__Title mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Développement spécifique
+              des applications</h5>
+        </a>
+        <p class="service__Description mb-3 font-normal text-gray-500 dark:text-gray-400">Coder une fonctionnalité, un site web ou encore une application entière, répondant aux besoins spécifiques de votre entreprise.</p>
+          <a href="#" class="sevice__Button inline-flex items-center px-3 py-2 text-sm font-medium text-center text-blue-900 bg-blue-300 rounded-lg hover:bg-blue-900 hover:text-blue-50 hover:px-5 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            Voir Plus
+            <svg fill="none" stroke="currentColor" class="w-3 h-3 mt-1 ml-2 -mr-1 " stroke-width="4" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"></path>
+            </svg>
+        </a>
+      </div>
+
+      <div class="service__Card max-w-xs p-6 bg-white border m-4 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <img class="flex mr-auto w-10 h-10 mb-2 text-gray-500 dark:text-gray-400" src="../assets/Images/Service Icon.svg" alt="mockup">
+        <a href="#">
+            <h5 class="service__Title mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Développement spécifique
+              des applications</h5>
+        </a>
+        <p class="service__Description mb-3 font-normal text-gray-500 dark:text-gray-400">Coder une fonctionnalité, un site web ou encore une application entière, répondant aux besoins spécifiques de votre entreprise.</p>
+          <a href="#" class="sevice__Button inline-flex items-center px-3 py-2 text-sm font-medium text-center text-blue-900 bg-blue-300 rounded-lg hover:bg-blue-900 hover:text-blue-50 hover:px-5 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            Voir Plus
+            <svg fill="none" stroke="currentColor" class="w-3 h-3 mt-1 ml-2 -mr-1 " stroke-width="4" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"></path>
+            </svg>
+        </a>
+      </div>
+
+      <div class="service__Card max-w-xs p-6 bg-white border m-4 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <img class="flex mr-auto w-10 h-10 mb-2 text-gray-500 dark:text-gray-400" src="../assets/Images/Service Icon.svg" alt="mockup">
+        <a href="#">
+            <h5 class="service__Title mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Développement spécifique
+              des applications</h5>
+        </a>
+        <p class="service__Description mb-3 font-normal text-gray-500 dark:text-gray-400">Coder une fonctionnalité, un site web ou encore une application entière, répondant aux besoins spécifiques de votre entreprise.</p>
+          <a href="#" class="sevice__Button inline-flex items-center px-3 py-2 text-sm font-medium text-center text-blue-900 bg-blue-300 rounded-lg hover:bg-blue-900 hover:text-blue-50 hover:px-5 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            Voir Plus
+            <svg fill="none" stroke="currentColor" class="w-3 h-3 mt-1 ml-2 -mr-1 " stroke-width="4" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"></path>
+            </svg>
+        </a>
+      </div>
+
+      <div class="service__Card max-w-xs p-6 bg-white border m-4 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <img class="flex mr-auto w-10 h-10 mb-2 text-gray-500 dark:text-gray-400" src="../assets/Images/Service Icon.svg" alt="mockup">
+        <a href="#">
+            <h5 class="service__Title mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Développement spécifique
+              des applications</h5>
+        </a>
+        <p class="service__Description mb-3 font-normal text-gray-500 dark:text-gray-400">Coder une fonctionnalité, un site web ou encore une application entière, répondant aux besoins spécifiques de votre entreprise.</p>
+          <a href="#" class="sevice__Button inline-flex items-center px-3 py-2 text-sm font-medium text-center text-blue-900 bg-blue-300 rounded-lg hover:bg-blue-900 hover:text-blue-50 hover:px-5 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            Voir Plus
+            <svg fill="none" stroke="currentColor" class="w-3 h-3 mt-1 ml-2 -mr-1 " stroke-width="4" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"></path>
+            </svg>
+        </a>
+      </div>
+
+      <div class="service__Card max-w-xs p-6 bg-white border m-4 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <img class="flex mr-auto w-10 h-10 mb-2 text-gray-500 dark:text-gray-400" src="../assets/Images/Service Icon.svg" alt="mockup">
+        <a href="#">
+            <h5 class="service__Title mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Développement spécifique
+              des applications</h5>
+        </a>
+        <p class="service__Description mb-3 font-normal text-gray-500 dark:text-gray-400">Coder une fonctionnalité, un site web ou encore une application entière, répondant aux besoins spécifiques de votre entreprise.</p>
+          <a href="#" class="sevice__Button inline-flex items-center px-3 py-2 text-sm font-medium text-center text-blue-900 bg-blue-300 rounded-lg hover:bg-blue-900 hover:text-blue-50 hover:px-5 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            Voir Plus
+            <svg fill="none" stroke="currentColor" class="w-3 h-3 mt-1 ml-2 -mr-1 " stroke-width="4" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"></path>
+            </svg>
+        </a>
+      </div>
+
+      <div class="service__Card max-w-xs p-6 bg-white border m-4 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <img class="flex mr-auto w-10 h-10 mb-2 text-gray-500 dark:text-gray-400" src="../assets/Images/Service Icon.svg" alt="mockup">
+        <a href="#">
+            <h5 class="service__Title mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Développement spécifique
+              des applications</h5>
+        </a>
+        <p class="service__Description mb-3 font-normal text-gray-500 dark:text-gray-400">Coder une fonctionnalité, un site web ou encore une application entière, répondant aux besoins spécifiques de votre entreprise.</p>
+          <a href="#" class="sevice__Button inline-flex items-center px-3 py-2 text-sm font-medium text-center text-blue-900 bg-blue-300 rounded-lg hover:bg-blue-900 hover:text-blue-50 hover:px-5 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            Voir Plus
+            <svg fill="none" stroke="currentColor" class="w-3 h-3 mt-1 ml-2 -mr-1 " stroke-width="4" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"></path>
+            </svg>
+        </a>
+      </div>
+      
+      </div>
+    </div>
+  </section>
 </template>
 
 <style scoped>

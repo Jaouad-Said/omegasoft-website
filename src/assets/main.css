@@ -29,6 +29,74 @@ a,
   color: #A490C3;
 }
 
+.section__Title{
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.01em;
+
+  color: #436BB2;
+}
+
+.section__SubTitle{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #1E2530;
+}
+
+.service__Card{
+  background: rgba(158, 158, 205, 0.2);
+  border-radius: 10px;
+}
+
+.sevice__Button{
+  background: #C7D4F4;
+  border-radius: 4px;
+  color: #436BB2;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.sevice__Button:hover{
+  background: #436BB2;
+  border-radius: 4px;
+  color: #C7D4F4;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.service__Description{
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+
+  color: rgba(30, 37, 48, 0.7);
+}
+
+.service__Title{
+  margin-top: 2rem;
+  font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 28px;
+
+color: #393939;
+}
+
+
+
 /* @media (hover: hover) {
   a:hover {
     background-color: hsla(283, 96%, 27%, 0.2);
