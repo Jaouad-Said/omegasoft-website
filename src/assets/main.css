@@ -32,7 +32,7 @@ a,
 .section__Title{
   font-style: normal;
   font-weight: 900;
-  font-size: 28px;
+  font-size: 24px;
   display: flex;
   align-items: center;
   text-align: center;
@@ -44,7 +44,7 @@ a,
 .section__SubTitle{
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 20px;
   display: flex;
   align-items: center;
   text-align: center;
@@ -75,7 +75,7 @@ a,
 
 .service__Description{
   margin-bottom: 2rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -86,7 +86,7 @@ a,
 }
 
 .service__Title{
-  margin-top: 2rem;
+  margin-top: 1rem;
   font-style: normal;
 font-weight: 700;
 font-size: 20px;
@@ -99,7 +99,192 @@ color: #393939;
   background: #fdfdff;
 }
 
+.product__Description{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+/* or 130% */
 
+
+  color: #474747;
+}
+
+.product__text-gradient{
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  background: linear-gradient(91.55deg, #436BB2 3.63%, #A490C3 48.31%, #38BFE5 97.65%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.product__Title{
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  /* identical to box height */
+
+  color: #363636;
+}
+
+.product__Points{
+  color: #585858;
+}
+
+.product__Badge-Logico {
+  padding: 7px 40px;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #436BB2;
+  background: rgba(67, 107, 178, 0.2);
+  border-radius: 4px;
+}
+
+.product__Button-Logico:hover{
+  background: #eef3ff;
+  border-radius: 4px;
+  color: #436BB2;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.product__Button-Logico{
+  background: #436BB2;
+  border-radius: 4px;
+  color: #eef3ff;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.product__Badge-Jdoc {
+  padding: 7px 40px;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #806E9D;
+  background: rgba(128, 110, 157, 0.2);
+  border-radius: 4px;
+}
+
+.product__Button-Jdoc:hover{
+  background: #EAEEF8;
+  border-radius: 4px;
+  color: #806E9D;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.product__Button-Jdoc{
+  background: #806E9D;
+  border-radius: 4px;
+  color: #EAEEF8;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.product__Button-OmegaPointage:hover{
+  background: #C7D4F4;
+  border-radius: 4px;
+  color: #436BB2;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.product__Button-OmegaPointage:hover{
+  background: #eef3ff;
+  border-radius: 4px;
+  color: #436BB2;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.product__Button-OmegaPointage{
+  background: #436BB2;
+  border-radius: 4px;
+  color: #eef3ff;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.product__Badge-OmegaPointage {
+  padding: 7px 40px;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #436BB2;
+  background: rgba(67, 107, 178, 0.2);
+  border-radius: 4px;
+}
+
+.partenaires__Background{
+  background: #1E2530;
+}
+
+.partenaires__Description{
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  color: #eef3ff;
+}
+
+.partenaires__Button-Google{
+  background: #C7D3ED;
+  border-radius: 4px;
+  color: #4285F4;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.partenaires__Button-Google:hover{
+  background: #4285F4;
+  border-radius: 4px;
+  color: #C7D3ED;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.partenaires__Button-Sage{
+  background: #B3DDD5;
+  border-radius: 4px;
+  color: #2A2A2A;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.partenaires__Button-Sage:hover{
+  background: #55DE55;
+  border-radius: 4px;
+  color: #2A2A2A;;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.partenaires__Button-Office{
+  background: #EEC0B2;;
+  border-radius: 4px;
+  color: #2A2A2A;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.partenaires__Button-Office:hover{
+  background: #E64A19;
+  border-radius: 4px;
+  color: #EAEEF8;
+  font-style: normal;
+  font-weight: 500;
+}
 
 /* @media (hover: hover) {
   a:hover {
